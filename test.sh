@@ -8,7 +8,7 @@ command -v bc > /dev/null || { echo "bc was not found. Please install bc."; exit
 NAMESERVERS=`cat /etc/resolv.conf | grep ^nameserver | cut -d " " -f 2 | sed 's/\(.*\)/&#&/'`
 
 PROVIDERS="
-1203.52.78.183#2
+203.52.78.183#2
 8.215.26.147#3
 1.0.215.76#4
 73.7.178.166#5
